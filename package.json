@@ -1,0 +1,24 @@
+{
+  "name": "todolist-pratics",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.1",
+    "@babel/core": "^8.0.1",
+    "@babel/node": "^8.0.1",
+    "@babel/preset-env": "^8.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  }
+}
